@@ -1,0 +1,36 @@
+package com.erp.entity;
+
+public enum HistoryAction {
+
+    // Sales Order
+    SALES_ORDER_CREATED,
+    SALES_ORDER_UPDATED,
+    SALES_ORDER_APPROVED,
+    SALES_ORDER_REJECTED,
+    SALES_ORDER_READY_FOR_DISPATCH,
+
+    // Production
+    PRODUCTION_REQUIRED,
+    PRODUCTION_CREATED,
+    PRODUCTION_STARTED,
+    PRODUCTION_COMPLETED,
+
+    // Raw Material Purchase
+    RAW_MATERIAL_PURCHASE_CREATED,
+    RAW_MATERIAL_PURCHASE_APPROVED,
+    RAW_MATERIAL_PURCHASE_REJECTED,
+    RAW_MATERIAL_RECEIVED,
+
+    // Raw Material
+    RAW_MATERIAL_ISSUED,
+
+    // Dispatch
+    DISPATCH_APPROVED,
+    ORDER_DISPATCHED,
+
+    // Order
+    ORDER_COMPLETED,
+
+    // Stock
+    STOCK_ADJUSTMENT
+}

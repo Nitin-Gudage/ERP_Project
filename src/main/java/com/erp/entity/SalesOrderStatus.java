@@ -1,0 +1,16 @@
+package com.erp.entity;
+
+public enum SalesOrderStatus {
+
+    PENDING_APPROVAL,
+    APPROVED,
+    REJECTED,
+    PRODUCTION_REQUIRED,
+    IN_PRODUCTION,
+    PRODUCTION_COMPLETED,
+    PENDING_DISPATCH,
+    DISPATCH_APPROVED,
+    DISPATCHED,
+    COMPLETED,
+    CANCELLED
+}
